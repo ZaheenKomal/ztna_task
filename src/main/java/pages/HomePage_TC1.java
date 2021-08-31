@@ -40,10 +40,10 @@ public class HomePage_TC1 {
         driver.findElement(signInButton).click();
         return new AddPolicy_TC4(driver);
     }
-   /* public AddRule_TC5 loginForAddRuleUSeCase(){
+    public AddRule_TC5 loginForAddRuleUSeCase(){
         driver.findElement(signInButton).click();
         return new AddRule_TC5(driver);
-    }*/
+    }
 
     public String pageVerification()
     {
