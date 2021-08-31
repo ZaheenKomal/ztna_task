@@ -17,7 +17,7 @@ public class AddRule_TC5 {
     private By selectUserOption=By.xpath("//div[text()='User']");
     private By selectDropdown=By.xpath("//div[@class='react-select__value-container css-1hwfws3']");
     private By adminEmail=By.xpath("//div[text()='zaheen.komal@emumba.com']");
-    private By tickIcon=By.xpath("//button[@class='MuiButtonBase-root MuiIconButton-root jss877'][1]");
+    private By tickIcon=By.cssSelector("svg[height='13.357']");
     private By status=By.xpath("//span[text()='Active']");
 
     public void clickOnPoliciesTab(){
@@ -58,5 +58,4 @@ public class AddRule_TC5 {
     public String clickOnStatus(){
         return driver.findElement(status).getText();
     }
-
 }

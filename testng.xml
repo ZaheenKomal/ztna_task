@@ -28,10 +28,10 @@
         </classes>
     </test>
 
-    <!--<test name="AddRuleTest">
+    <test name="AddRuleTest">
         <classes>
             <class name="add_rule.AddRuleTest"></class>
         </classes>
-    </test>-->
+    </test>
 
 </suite>
